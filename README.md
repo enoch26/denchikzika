@@ -3,9 +3,6 @@ I am currently working on this project "Spatio-temporal dynamics of arboviral di
 
 
 This Javascript creates a NDVI cloud-free image on Google Earth Engine. 
-
-![NDVIcloudfree](https://github.com/enoch26/denchikzika/edit/master/NDVI_SP.png)
-
 ```
 // brazil municaipality shapefile                  
 var brazil = ee.FeatureCollection('users/enochsuen26/brazil2010r');
@@ -76,3 +73,4 @@ Map.addLayer(composite_free, visParams, 'composite collection without clouds');
 Map.addLayer(ndvi,{min: -1, max: 1, palette: ['blue', 'white', 'green']}, 'NDVI cloud free'); 
 
 ```
+![NDVIcloudfree](./NDVI_SP.png)
