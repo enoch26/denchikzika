@@ -4,7 +4,7 @@ I am currently working on this project "Spatio-temporal dynamics of arboviral di
 
 This Javascript creates a NDVI cloud-free image on Google Earth Engine. 
 
-![NDVIcloudfree](https://github.com/enoch26/denchikzika/edit/master/Screenshot (6).png)
+![NDVIcloudfree](https://github.com/enoch26/denchikzika/edit/master/NDVI_SP.png)
 
 ```
 // brazil municaipality shapefile                  
