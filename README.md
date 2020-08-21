@@ -2,7 +2,7 @@
 I am currently working on this project "Spatio-temporal dynamics of arboviral diseases in Brazil in a changing climate".
 
 
-This Javascript creates a NDVI cloud-free image on Google Earth Engine. 
+This Javascript creates a NDVI cloud-free image of Sao Paulo in 2019 on Google Earth Engine. 
 ```
 // brazil municaipality shapefile                  
 var brazil = ee.FeatureCollection('users/enochsuen26/brazil2010r');
