@@ -6,7 +6,7 @@ I am currently working on this project "Spatio-temporal dynamics of arboviral di
 One of the main tasks is to process satellite imagery via Google Earth Engine, accommodating spatial misalignment among the disease, climate and environmental data. 
 
 ### Normalized Difference Vegetation Index (NDVI)
-Normalized difference vegetation index (NDVI) can reflect the greeness of the biome. This could be a possible indicator for the breeding habitats of vector mosquito larvae. This Javascript creates a visualisation of NDVI cloud-free image of Sao Paulo state, Brazil, in 2019 from USGS Landsat 8 Surface Reflectance Tier 1 on Google Earth Engine platform. Details of the data source can be found at https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR. 
+Normalized difference vegetation index (NDVI) can reflect the greeness of the biome. This could be a possible indicator for the breeding habitats of vector mosquito larvae. This Javascript creates a visualisation of NDVI cloud-free image of Sao Paulo state, Brazil, in 2019 from USGS Landsat 8 Surface Reflectance Tier 1 on Google Earth Engine platform. Generally speaking, the coastal region is greener than the inland. Details of the data source can be found at https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR. 
 
 ```
 // Took reference from the code at stackExchange https://gis.stackexchange.com/questions/282971/cloud-mask-using-pixel-qa
@@ -83,7 +83,7 @@ Map.addLayer(ndvi,{min: -1, max: 1, palette: ['blue', 'white', 'green']}, 'NDVI 
 
 ## Elevation
 
-Elevation can be linked to the habitats of the mosquitoes. This Javascript can visualise the elevation in Sao Paulo state and export as csv file to Google Drive. 
+Elevation can be linked to the habitats of the mosquitoes. This Javascript can visualise the elevation in Sao Paulo state and export as csv file to Google Drive. The elevation along the coast is much lower than the inland area. 
 (Source of data: NASA SRTM Digital Elevation 30m https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)
 ```
 // brazil municaipality shapefile                  
