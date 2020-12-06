@@ -172,9 +172,10 @@ Export.table.toDrive({
   folder: "GEE",
   fileFormat:"CSV",
 })
-![Elev_SP](./elev_SP.png)
 
 ```
+![Elev_SP](./elev_SP.png)
+
 ## Climate Data 
 
 Climate data is crucial in affecting mosquitoes behaviour. ERA5 Daily aggregates data (https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY) is a good source of climate data. This Javascript can export the total precipitation data as a csv file to the Google Drive for further analysis. 
